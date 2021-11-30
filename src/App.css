@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html * {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color : inherit;
+}
+
+
+header{
+  padding: 0 30px;
+  background-color: #030303;
+  color: #fff;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+header nav .main-nav{
+  display: flex;
+}
+header nav .main-nav li{
+  padding: 0 10px;
+}
+header .account .profile .profile-img{
+  height: 24px;
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+}
+header .account .profile .profile-img img{
+  height: 100%;
+}
